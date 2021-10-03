@@ -13,26 +13,25 @@ body {
 
 }
 
-.recipes {
-    width: 50%;
-    min-height: 300px;
+.flex-container {
+    display: flex 
+}
+
+.flex-container div {
+    flex: 1;
+    height: 300px;
     background-color: #fffcfa;
     box-sizing: border-box;
-    display: inline-flex;
     padding: 10px;
     margin: 15px;
-    position: relative;
+}
+
+.recipes {
+
 }
 
 .recipes2 {
-    width: 46%;
-    min-height: 300px;
-    background-color: #fffcfa;
-    box-sizing: border-box;
-    display: inline-block;
-    padding: 10px;
-    margin: 15px;
-    position: absolute;
+
 }
 
 a {
